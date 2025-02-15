@@ -1,0 +1,6 @@
+flask
+flask-session
+cs50
+sqlite3
+unicodedata
+datetime
