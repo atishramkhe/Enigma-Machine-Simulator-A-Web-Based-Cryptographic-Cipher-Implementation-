@@ -1,0 +1,123 @@
+body {
+    background-image: url('matrix_rain.html') !important;
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100vh;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* Size for brand */
+
+nav {
+    background-color: #000;
+    color: #0F0
+}
+
+.nav-link {
+    color: #0F0;
+}
+
+nav .navbar-brand {
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue {
+    color: #a6afff;
+}
+
+nav .navbar-brand .red {
+    color: #ea433b;
+}
+
+nav .navbar-brand .yellow {
+    color: #f5b82e;
+}
+
+nav .navbar-brand .green {
+    color: #0F0;
+}
+
+nav .border {
+    border: none;
+}
+
+.border {
+    border: none !important;
+}
+
+/* Apply styles for screens with width <= 768px */
+@media (max-width: 768px) {
+    textarea {
+        width: 100%;
+        /* adjust width to fit screen */
+        height: 150px;
+        /* adjust height to fit content */
+    }
+}
+
+/* Apply styles for screens with width > 768px */
+@media (min-width: 769px) {
+    textarea {
+        width: 400px;
+        /* set fixed width */
+        height: 200px;
+        /* set fixed height */
+    }
+}
+
+input[type="text"],
+textarea {
+
+    background-color: #171717;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+
+.textarea-shadow {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+    /* outer shadow */
+}
+
+select {
+    background-color: #171717;
+    color: #FFF;
+    border: none;
+    outline: none;
+}
+
+input {
+    background-color: #171717;
+    color: #FFF;
+    border: none;
+}
+
+label {
+    box-shadow: inset 3px -8px 20px 5px rgb(0 0 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rounded-corner {
+    border-radius: 8px;
+    /* adjust the value to your liking */
+    padding: 10px;
+    /* add some padding for a nicer look */
+}
