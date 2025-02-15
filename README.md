@@ -6,6 +6,8 @@
 ## 📖 Overview  
 The **Enigma Machine Simulator** is a Python-based recreation of the famous **Enigma encryption device** used during World War II. This project explores the inner workings of the machine by accurately implementing its encryption mechanism and providing an interactive **web-based interface** for users to experience its functionality.  
 
+![overview](output.gif)
+
 ### 🔹 Key Technologies  
 - **Python** – Implements the core Enigma Machine logic  
 - **Flask** – Enables a web interface for real-time encryption  
